@@ -69,7 +69,7 @@ export function TaskList() {
           <div className="input-group">
             <input 
               type="text" 
-              placeholder="Adicionar nova tarefa" 
+              placeholder="Adicionar novo todo" 
               onChange={(elemento) => setNewTaskTitle(elemento.target.value)}
               value={newTaskTitle}
               onKeyPress={(elemento) => handleCreateNewTaskByEnter(elemento.key)}
